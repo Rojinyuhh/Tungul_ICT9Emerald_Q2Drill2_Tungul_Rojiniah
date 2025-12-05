@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OBMC Enroll</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="styles.css" rel="stylesheet">
+
+  <style>
+   .navbar{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
+   body{
+    background-color: #2C2F33;
+   }
+
+   .navbar-dark .nav-link{
+    color: #FFFFFF;
+   }
+
+    .form-container{
+    background-color: #FFFFFF;
+    max-width: 1090px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+   }
+  </style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #151719;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.png" alt="logo" height="66px" width=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" target="_self" >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" target="_self">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="enroll.html" target="_self" >Enroll</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" target="_self" >Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn" style="background-color: #0A3A76; color: #FFFFFF;" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-5 mb-5" >
+  <div class="container-fluid bg-white p-3 rounded-2" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 18px; max-width: 900px; margin: auto;">
+    <h2 style="font-size: 35px;"><strong>Enrollment Information</strong></h2>
+
+    <p>Begin your learning journey at O.B. Montessori Center. Below are the complete
+      requirements, grade levels offered, and step-by-step instructions to guide you through the
+      enrollment process.
+    </p> 
+
+    <div class="content-box" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+      <h4 style="font-size: 23px;"><strong>Grade Levels Offered:</strong></h4>
+      <ul>
+        <li>Junior Casa (Pre Kindergarten 1)</li>
+        <li>Junior Advanced Casa (Pre Kindergarten 2)</li>
+        <li>Advanced Casa (Kindergarten)</li>
+        <li>Primary Grade School - Grades 1 to 3</li>
+        <li>Intermediate Grade School - Grades 4 to 6</li>
+        <li>Junior High School — Grades 7 to 10</li>
+        <li>Senior High School - Grades 11 to 12</li>
+      </ul>
+    </div>
+
+    <div class="content-box" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+      <h4 style="font-size: 23px;"><strong>Enrollment Requiremens:</strong></h4>
+      <ul>
+        <li>Birth Certificate</li>
+        <li>2 x 2 ID Picture</li>
+        <li>Report Card / Form 138</li>
+        <li>Primary Grade School - Grades 1 to 3</li>
+        <li>Good Moral Certificate</li>
+        <li>Medical Certificate</li>
+      </ul>
+    </div>
+
+    <div class="content-box" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+      <h4 style="font-size: 23px;"><strong>Returning Students:</strong></h4>
+      <ul>
+        <li>Previous Report Card</li>
+        <li>Updated Student Information</li>
+      </ul>
+    </div>
+
+  </div>
+  
+</div>
+
+  <div class="container mt-5 mb-5">
+    <div class="container-fluid">
+      <div class="form-container" style="max-width: 600px; margin: auto; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+			    <h2 class="text-center mb-3">Online Enrollment Form</h2>
+			      <form>
+              <div class="mb-3 mt-4">
+                <label for="name">Student Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your full name" name="name">
+            </div>
+
+				  <div class="mb-3 mt-3">
+					  <label for="phone">Phone:</label>
+					  <input type="phone" class="form-control" id="phone" placeholder="Enter your phone number" name="number">
+				  </div>
+
+          <div class="mb-3 mt-3">
+					  <label for="email">Email:</label>
+					  <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+				  </div>
+
+          <div class>
+            <label for="dropdown">Preferred Campus:</label>
+			        <select id="campus" name="dropdown" class="form-control">
+				        <option value="angeles">Angeles</option>
+				        <option value="staana">Sta. Ana</option>
+				        <option value="greenhills">Greenhills</option>
+				        <option value="fairview">Fairview</option>
+				        <option value="laspinas">Las Piñas</option>
+              </select>
+          </div>
+
+          <div class>
+            <label for="dropdown">Grade</label>
+			        <select id="grade" name="dropdown" class="form-control">
+				        <option value="juniorcasa">Junior Casa</option>
+				        <option value="junioradvanced">Junior Advanced Casa</option>
+				        <option value="advanced">Advanced Casa</option>
+				        <option value="primary">Primary Grade School</option>
+				        <option value="intermediate">Intermediate Grade School</option>
+                <option value="juniorhigh">Junior High School</option>
+                <option value="seniorhigh">Senior High School</option>
+              </select>
+          </div>
+
+          <div class="mb-3 mt-3">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" placeholder="Enter your message" name="message" rows="5"></textarea>
+          </div>
+
+         <div class="mb-3 mt-3">
+            <button type="submit" class="btn w-100" style="background-color: #0A3A76; color: #FFFFFF;">Submit Enrollment Form</button>
+          </div>
+
+			    </form>
+		  </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
